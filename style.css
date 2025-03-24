@@ -7,9 +7,12 @@ body{
     font-family: "Oswald", sans-serif;
 }
 .container{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    justify-items: center;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 .search_btn{
     border-radius: 10%;
@@ -18,14 +21,16 @@ body{
     border: none;
     background-color: gray;
     color: white;
-    transition: all 0.11s ease-in;
+    transition: all 0.2s ease-in;
 }
 .search_btn:hover{
     cursor: pointer;
     background-color: green;
 }
+.search_btn:active{
+    background-color: rgba(1, 83, 1, 0.86);
+}
 .container2{
-    margin-top: 30px;
     display: flex;
     width: 50%;
 }
