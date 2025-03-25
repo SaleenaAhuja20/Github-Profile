@@ -42,3 +42,8 @@ body{
 .container input:focus-visible{
     outline: 1px solid green;
 }
+/* avatar css */
+.avatar img{
+    border-radius: 50%;
+    height: 150px;
+}
