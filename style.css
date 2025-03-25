@@ -45,25 +45,38 @@ body{
 /* avatar css */
 .avatar img{
     border-radius: 50%;
-    height: 120px;
+    height: 100px;
 }
 .profile-box{
-    border: 1px solid black;
     width: 60%;
     padding: 30px 20px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    border-radius: 2%;
+    transition: all 0.22s ease-in-out;
+}
+.profile-box:hover{
+    transform: rotate(-2.90deg);
 }
 .left{
     display: flex;
 }
 .top-section{
     display: flex;
-}
-.right{
-    position: absolute;
-    right: 0;
+    justify-content: space-between;
 }
 .status{
     margin-top: 25px;
     display: flex;
-   gap: 38%;
+    gap: 38%;
+}
+.self{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.name{
+    font-size: 27px;
+}
+.username{
+    font-size: 15px;
 }
