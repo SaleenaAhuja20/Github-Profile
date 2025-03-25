@@ -14,7 +14,7 @@ body{
     justify-content: center;
     gap: 2rem;
 }
-.search_btn{
+.btn{
     border-radius: 10%;
     padding: 7px 10px;
     font-weight: bold;
@@ -23,11 +23,11 @@ body{
     color: white;
     transition: all 0.2s ease-in;
 }
-.search_btn:hover{
+.btn:hover{
     cursor: pointer;
     background-color: green;
 }
-.search_btn:active{
+.btn:active{
     background-color: rgba(1, 83, 1, 0.86);
 }
 .container2{
@@ -45,5 +45,25 @@ body{
 /* avatar css */
 .avatar img{
     border-radius: 50%;
-    height: 150px;
+    height: 120px;
+}
+.profile-box{
+    border: 1px solid black;
+    width: 60%;
+    padding: 30px 20px;
+}
+.left{
+    display: flex;
+}
+.top-section{
+    display: flex;
+}
+.right{
+    position: absolute;
+    right: 0;
+}
+.status{
+    margin-top: 25px;
+    display: flex;
+   gap: 38%;
 }
