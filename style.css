@@ -60,6 +60,7 @@ body{
 }
 .left{
     display: flex;
+    align-items: center;
 }
 .top-section{
     display: flex;
@@ -72,7 +73,6 @@ body{
 }
 .self{
     margin-left: 20px;
-    margin-top: 20px;
 }
 .name{
     font-size: 27px;
