@@ -66,6 +66,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.right{
+    align-self: center;
+
+}
 .status{
     margin-top: 25px;
     display: flex;
