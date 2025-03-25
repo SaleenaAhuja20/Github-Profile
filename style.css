@@ -91,3 +91,6 @@ body{
 .username{
     font-size: 15px;
 }
+.hide{
+    display: none;
+}
